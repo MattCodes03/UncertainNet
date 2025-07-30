@@ -1,19 +1,73 @@
+# === CMake build artifacts ===
 CMakeLists.txt.user
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
 Makefile
 cmake_install.cmake
-install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+install_manifest.txt
 
-# CLion
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#cmake-build-*
+# CMake presets and config
+CMakeUserPresets.json
+*.cmake
+
+# CMake dependency folders
+_deps/
+build/
+build-*/
+
+# === Testing ===
+Testing/
+
+# === IDEs & Editors ===
+# CLion (JetBrains)
+.idea/
+cmake-build-*/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# === OS Specific ===
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# === Logs & Misc ===
+*.log
+*.out
+*.obj
+*.exe
+*.a
+*.o
+*.so
+*.dll
+*.pyc
+*.class
+*.swp
+*.bak
+*~
+
+# === Backup & Temporary Files ===
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+
+# === Packages ===
+*.tar.gz
+*.zip
+*.7z
+
+# === Git ===
+*.patch
+*.diff
+*.orig
+
+# === Unit test results ===
+test-results/
+*.gcda
+*.gcno
+*.gcov
