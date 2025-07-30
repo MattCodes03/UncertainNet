@@ -11,7 +11,7 @@ Whether you're researching Bayesian deep learning, building robust AI systems, o
 - ✅ **Built-in Uncertainty Quantification**
   - Support for **epistemic** (model) and **aleatoric** (data) uncertainty
   - Techniques like **MC Dropout**, **Bayesian layers**, **distributional outputs**
-  
+
 - 🧱 **Modular Architecture**
   - Clean layer interface (e.g., `Dense`, `Conv2D`, `Dropout`, `BayesianDense`)
   - Custom loss functions (e.g., NLL, heteroscedastic MSE)
@@ -21,10 +21,15 @@ Whether you're researching Bayesian deep learning, building robust AI systems, o
   - Predict full probability distributions, not just point estimates
 
 - ⚙️ **Pure C++ Implementation**
-  - No heavy external dependencies
+  - Uses [Eigen](https://eigen.tuxfamily.org/) for efficient linear algebra
+  - Integrates [Autodiff](https://github.com/autodiff/autodiff) for automatic differentiation to facilitate gradient-based optimization
+  - No heavy external dependencies beyond Eigen and Autodiff
   - Easily portable and embeddable
 
 ---
 
 ## 📦 Installation
-> Guide to Come.
+
+> Installation instructions coming soon.
+
+The core builds on [Eigen](https://eigen.tuxfamily.org/) and [Autodiff](https://github.com/autodiff/autodiff) libraries to provide efficient tensor computations and automatic differentiation support for training neural networks with uncertainty.

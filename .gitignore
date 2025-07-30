@@ -1,73 +1,25 @@
-# === CMake build artifacts ===
-CMakeLists.txt.user
+# Build directories
+/build/
+/cmake-build-debug/
+
+# CMake files
 CMakeCache.txt
 CMakeFiles/
-CMakeScripts/
 Makefile
 cmake_install.cmake
-compile_commands.json
-CTestTestfile.cmake
-install_manifest.txt
 
-# CMake presets and config
-CMakeUserPresets.json
-*.cmake
+# OS files
+.DS_Store
+Thumbs.db
 
-# CMake dependency folders
-_deps/
-build/
-build-*/
-
-# === Testing ===
-Testing/
-
-# === IDEs & Editors ===
-# CLion (JetBrains)
-.idea/
-cmake-build-*/
-
-# VSCode
+# IDE files
 .vscode/
-*.code-workspace
+.idea/
 
-# === OS Specific ===
-.DS_Store          # macOS
-Thumbs.db          # Windows
-
-# === Logs & Misc ===
-*.log
-*.out
-*.obj
+# Compiled binaries
 *.exe
-*.a
+*.out
 *.o
-*.so
-*.dll
-*.pyc
-*.class
-*.swp
-*.bak
-*~
 
-# === Backup & Temporary Files ===
-*.tmp
-*.temp
-*.old
-*.orig
-*.rej
-
-# === Packages ===
-*.tar.gz
-*.zip
-*.7z
-
-# === Git ===
-*.patch
-*.diff
-*.orig
-
-# === Unit test results ===
-test-results/
-*.gcda
-*.gcno
-*.gcov
+# Others
+*.log
